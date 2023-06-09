@@ -121,14 +121,14 @@
 import { defineAsyncComponent, defineComponent } from "vue";
 import { Head, Link } from "@inertiajs/inertia-vue3"
 
-import JetApplicationMark from "@/Jetstream/ApplicationMark"
-import JetButton from "@/Jetstream/Button"
-import JetModal from "@/Jetstream/Modal"
-import JetInput from "@/Jetstream/Input"
+import JetApplicationMark from "@/Jetstream/ApplicationMark.vue"
+import JetButton from "@/Jetstream/Button.vue"
+import JetModal from "@/Jetstream/Modal.vue"
+import JetInput from "@/Jetstream/Input.vue"
 
-import Section from "@/Components/Section"
-import Skill from "@/Components/Skills"
-import Project from "@/Components/Project"
+import Section from "@/Components/Section.vue"
+import Skill from "@/Components/Skills.vue"
+import Project from "@/Components/Project.vue"
 
 export default {
     components: {
